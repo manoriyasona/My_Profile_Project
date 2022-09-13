@@ -1,0 +1,170 @@
+.slider{
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	overflow: hidden;
+	top: auto;
+}
+#slideImg{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 25;
+	animation: zoom 20s infinite;
+}
+nav{
+	margin: 0px;
+	padding:0px;
+}
+.body-text{
+	display:flex;
+	font-family: "Roboto",sans-serif;
+    align-items: center;
+	justify-content: center;
+	margin-top: 300px;
+}
+nav{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	min-height: 8vh;
+	background-color:rgb(68, 192, 107);
+	font-family: "Roboto",sans-serif;
+}
+.heading{
+	color:white;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-size:20px;
+}
+.nav-links{
+	align-items: center;
+	display: flex;
+	justify-content: space-around;
+	width: 30%;
+}
+.nav-links li{
+	list-style: none;
+}
+.nav-links a{
+	color: white;
+	text-decoration: none;
+	letter-spacing: 3px;
+	font-weight: bold;
+	padding: 14px 16px;
+
+}
+.nav-links li a .active{
+	background-color: #4caf50;
+}
+@keyframes zoom {
+	25%{
+	background: url(blackbeach.jpg);
+	}
+	
+	50%{
+	background:url(blackwater.png)  ;
+	}
+	
+	75%{
+	background: url(nature.png);
+	}
+	
+	100%{
+		background: url(blackbeach.jpg);
+	}
+}
+.head{
+	padding: 2px;
+}
+.overlay{
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+	position: absolute;
+	top: 25;
+}
+.menu-icons{
+	padding: 0;
+	margin-top: 0;
+	flex: 1;
+	align-items: center;
+	text-align: right;
+}
+.menu-icons img{
+	width: 20px;
+	margin-left: 40px;
+	cursor: pointer;
+}
+.content{
+	width: 60%;
+	margin: 160px auto 0;
+	text-align: center;
+	color: #fff;
+}
+.content h1{
+	font-size: 60px;
+}
+.content h3{
+	width: 80%;
+	margin: 20px auto 100px;
+    font-weight: 100;
+	line-height: 25px;
+}
+button{
+	width: 200px;
+	padding: 15px 0;
+	text-align: center;
+	margin: 0 10px;
+	border-radius: 25px;
+	font-weight: bold;
+	border: 2px solid #50fe76;
+	background:#50fe76;
+	color: rgb(11, 41, 160);
+	cursor: pointer;
+	transition: background 0.5s;
+}
+button:hover{
+	background: transparent;
+	border: 2px solid rgb(255, 255, 255);
+}
+button .btn-2{
+	border: 2px solid rgb(255, 255, 255);
+    background: transparent;
+}
+button .btn-2:hover{
+	border: 2px solid #fd7250 ;
+}
+.slider{
+	height: 100vh;
+	position: relative;
+    overflow: hidden;
+}
+.slide{
+	width: 20%;
+	height: 500px;
+}
+.head1{
+	width: 100px;
+	display: flex;
+	border: 2px solid blue;
+	text-align: center;
+	padding: 60px;
+	margin: 50px;
+}
+.head2{
+	width: 100px;
+	display: flex;
+	border: 2px solid blue;
+	text-align: center;
+	padding: 60px;
+	margin: 50px;
+}
+.head3{
+	width: 100px;
+	display: flex;
+	border: 2px solid blue;
+	text-align: center;
+	padding: 60px;
+	margin: 50px;
+}

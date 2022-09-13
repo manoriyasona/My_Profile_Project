@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Rubik:ital,wght@0,400;1,300&display=swap');
+*{
+ margin: 0;
+ padding: 0;
+}
+.sidebar{
+    position: absolute;
+    height: 110vh;
+    background-color: lightgray;
+    font-family: 'fira Sans', sans-serif;
+    background:rgb(25, 131, 236);
+    transition: transform 0.3s ease-in;
+}
+.sidebar  nav{
+    padding: 45px;
+    font-family: 'Rubik', sans-serif;
+}
+.sidebar nav li {
+    list-style: none;
+    font-family: 'Rubik', sans-serif;
+    font-size: 30px;
+    padding: 33px 0;
+    text-decoration: none;
+    cursor: pointer;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: white
+}
+.hello{
+    font-size: 45px;
+    margin-left: -39px;
+    padding-inline-end: 560px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.name{
+    font-size: 65px;
+    margin-left: 12px;
+    padding-inline-end: 300px;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+.course{
+    font-size: 35px;
+    margin-left: 100px;
+    padding-inline-end: 300px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.about{
+    font-size: 17px;
+    margin-left: 124px;
+    padding-top: 12px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.main{
+    width: 90vw;
+}
+.container{
+    display: flex;
+}
+.infoContainer{
+    background-color: rgb(192, 211, 255);
+    height:70vh;
+    width: 100vw;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-around;
+    background-image:url(https://static2.tripoto.com/media/filter/tst/img/44563/TripDocument/1530893065_1530893061034.jpg)
+}
+.devPic img{
+    height: 58vh;
+}
+.btn{
+    margin-top: 0px 0px 0px 25px;
+    margin-left: 420px;
+}
+.btn button{
+    border-color: aliceblue;
+    color: aliceblue;
+    background-color:black;
+    font-size: 13px;
+    cursor: pointer;
+    width: 200px;
+	padding: 16px;
+	text-align: center;
+	margin: 10px;
+	border-radius: 25px;
+	font-weight: bold;
+    justify-content: space-around;
+}
+button:hover{
+    color: black;
+    background-color: aliceblue;
+}
+.devInfo{
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
+    padding-top: 75px;
+    margin: 12px;
+}
+.contactInfo h1{
+    padding: 25px;
+    text-align: center;
+}
+.contactInfo form div{
+    padding: 10px 0;
+    flex-direction:column;
+    display: flex;
+}
+.contactInfo form div input{
+    width: 20vw;
+    border-radius: 5px;
+    border-color: rgb(101, 183, 254);
+    margin-left: 424px;
+    padding: 5px;
+}
+#emailHelp{
+    font-size: 8px;
+    color: midnightblue;
+    margin: 0 5px;
+}
+#form-check{
+ flex-direction: row;
+}
+#form-check input{
+    width: 24px;
+}
+.form-label{
+    padding-left: 25px;
+    margin-left: 401px;
+}
+.md-3{
+    padding-left: 25px;
+}
+button:hover{
+    color: blue;
+    background-color: aliceblue;
+}
+button{
+    text-align: center;
+    border-color: aliceblue;
+    color: aliceblue;
+    background-color:rgb(2, 116, 231);
+    font-size: 13px;
+    cursor: pointer;
+    width: 150px;
+	padding: 16px;
+	text-align: center;
+	margin:25px 15px;
+	border-radius: 20px;
+	font-weight: bold;
+    justify-content: space-around;
+}
+.blogItems{
+margin: 20px;
+font-family: 'Rubik', sans-serif;
+}
+.blogContainer{
+    margin-left: 220px;
+}
+.blogContainer h2{
+    font-family: 'Rubik', sans-serif;
+}
+.blogItems p{
+    margin: 23px;
+    font-family: 'fira Sans', sans-serif;
+}
+.intro{
+    margin-left: 10px 10px;
+}
+.intro h2{
+    margin: 70px;
+    font-family: 'Rubik', sans-serif;
+}
+.intro p{
+    margin: 70px;
+    font-family: 'fira Sans', sans-serif;
+}
+.skillContainer{
+    margin: 70px;
+    font-family: 'fira Sans', sans-serif;
+}
+.humburger{
+position: absolute;
+cursor: pointer;
+top: 10px;
+left: 10px;
+}
+.cross{
+    margin-left: 120px;
+}
+.sidebarGo{
+    position: absolute;
+    transform: translate(-443px, 0px);
+}
+
+@import (max-width: 1615px){
+    .devPic{
+    display: none;
+    }
+}
+#click{
+    align-items: center;
+    border-color: aliceblue;
+    color: aliceblue;
+    background-color:rgb(2, 116, 231);
+    font-size: 13px;
+    cursor: pointer;
+    width: 150px;
+    padding: 35px;
+    text-align: center;
+    margin:63px 360px;
+    border-radius: 20px;
+    font-weight: bold;
+    justify-content: space-around;
+}

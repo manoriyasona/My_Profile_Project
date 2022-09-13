@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- <input type="button" value="Submit" onclick="Validate()" /> -->
+<head>
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="sign&login.css" />
+</head>
+
+<body>
+    <div class="signup-box">
+        <h1>Sign Up</h1>
+        <form action="#" name="Regform" onsubmit="return Validation()">
+            <label>First Name *</label>
+            <input type="text" id="username" name="Name" placeholder="" />
+            <span id="u1" style="color:red ;"></span>
+            <label>Last Name</label>
+            <input type="text" id="lastname" name="LastName" placeholder="" />
+            <label>Email *</label>
+            <input type="email" id="email" name="Email" placeholder="" />
+            <span id="e1" style="color:red ;"></span>
+            <label>Password *</label>
+            <input type="password" id="password" name="Password" placeholder="" />
+            <span id="p1" style="color:red ;"></span>
+            <label>Confirm Password *</label>
+            <input type="password" id="confirmpassword" name="ConfirmPassword" placeholder="" />
+            <span id="p2" style="color:red ;"></span>
+            <button type="button" class="b1" onclick="return Validate()"> Submit</button>
+           <!-- <a href="login.html"><input type="button" class="b1" onclick=" return Validate()" value="Submit"></input></a> -->
+        </form>
+    </div>
+    <p class="btn">
+        Already have an account? <a href="login.html">Login here</a>
+    </p>
+</body>
+<script src="login.js"></script>
+
+</html>
